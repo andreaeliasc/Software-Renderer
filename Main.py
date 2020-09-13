@@ -34,10 +34,10 @@ def renderizarEscenaProyecto():
     #Primeros 5 modelos de la escena con sus correspondientes transformaciones y shaders a cada uno
 
     glLoad("hOLA1.obj", mtl="hOLA1.mtl", scale=(0.0017,0.0017,0.0017),translate=(-0.45,-0.65,-2),rotate=(0,-0.6,0),shade = 2)
-    glLoad("oso1.obj", mtl="oso1.mtl", scale=(0.039,0.039,0.039),translate=(0,-1.7,8),rotate=(0,0,0),shade = 5, mapeo = fur)
+    glLoad("oso1.obj", mtl="oso1.mtl", scale=(0.039,0.039,0.039),translate=(0,-1.7,8),rotate=(0,0,0),shade = 3, mapeo = fur)
     glLoad("genie3.obj", mtl="genie3.mtl", scale=(0.027,0.027,0.027),translate=(-0.28,-0.780,-2),rotate=(0,0,0), shade = 2)
     glLoad("aladdin.obj", mtl="aladdin.mtl", scale=(0.00067,0.00067,0.00067),translate=(-0.8,-0.7,-2),rotate=(0,0.7,0),shade = 1)
-    glLoad("IAGO.obj", mtl="IAGO.mtl", scale=(0.02,0.02,0.02),translate=(0.5,-0.75,8),rotate=(0,0,0), shade = 5, mapeo = plumas)
+    glLoad("IAGO.obj", mtl="IAGO.mtl", scale=(0.02,0.02,0.02),translate=(0.5,-0.75,8),rotate=(0,0,0), shade = 3, mapeo = plumas)
    
    
     
